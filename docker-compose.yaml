@@ -17,7 +17,7 @@ services:
     container_name: mysql-task
     environment:
       MYSQL_ROOT_PASSWORD: your_root_password
-      MYSQL_DATABASE: afci
+      MYSQL_DATABASE: task
       MYSQL_USER: admin
       MYSQL_PASSWORD: admin
     ports:
